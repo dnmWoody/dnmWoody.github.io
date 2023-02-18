@@ -1,0 +1,38 @@
+body {
+    background-image:linear-gradient(rgba(8, 119, 146),rgb(18, 69, 179),rgba(8, 119, 146));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cont1 {
+    position: relative;
+    left: 150px;
+    margin-left: 20px;
+    margin-right: 300px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid rgb(0, 0, 0);    
+    background-color:rgb(177, 179, 174);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+a{
+    color: rgb(27, 70, 150);
+}
+
+#logoTICMAS{
+    padding: 10px 0px 0px 1080px;
+    float: left;
+    width: 120px;
+    height: 36px;
+}
+
+#logoARGPRO{
+    padding: 7px 25px 0px 0px;
+    width: 120px;
+}
+

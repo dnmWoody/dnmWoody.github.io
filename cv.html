@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/estiloCV.css">    
+
+    <!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    -->
+
+    <title>CV</title>
+</head>
+<body>
+    <!--Menu encabezado-->
+    <div class="contenedor-encabezado">
+        <header>
+            <div class="logo">
+                <img src="images/logoCV.jpg" id="logoCV" alt="Logo-CV"> 
+            </div>
+
+            <nav id="nav">
+             <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+             </ul>   
+            </nav>
+
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i> 
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio ">
+        <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="images/FotoCV.jpg" alt="">
+        </div>
+        <h1>Diego Nicolas</h1>
+        <H2>Estudiante de Programación</H2>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+    <div class="contenido seccion">
+    <h2>Sobre mi</h2>
+    <p><span>Hola, soy Diego Nicolas.</span> Este es un pequeño resumen de mi primer CV en version HTML.</p>
+    <br>
+
+    <div class="fila">
+        
+        <!--datos personales-->
+        <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+                <li> <strong>Cumpleaños</strong> 08-11-1995 </li>
+                <li> <strong>Teléfono</strong> 3344 325423 </li>
+                <li> <strong>Email</strong> cw@example.com </li>
+                <li><strong>Website</strong> www.example.com </li>
+                <li><strong>Direcciòn</strong> 1258 Chubut, Argentina </li>
+            </ul>
+        </div>
+
+        <!-- intereses -->
+        <div class="col">
+            <H3>Intereses</H3>
+            <div class="contenedor-intereses">
+            <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJAR</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-person-hiking"></i>
+                <span>DEPORTE</span>
+            </div>
+
+            </div>
+        </div>   
+    </div>
+    <button>
+        DESCARGAR CV <i class="fa-solid fa-download"></i>
+        <span class="overlay"></span>
+    </button>
+    </div>
+</section>
+
+<!-- SECCIÒN CURRICULUM -->
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                    <h4>Audiovisual</h4>
+                    <spam class="casa">Colegio provincial</spam>
+                    <span class="fecha">2013 - 2016</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ducimus aut, vel officia temporibus, consequuntur quam minima, nam et nihil omnis totam! Possimus accusamus tempore voluptas? Aliquid laborum eos quam?</p>
+                    <div class="coectori">
+                        <div class="circuloi"></div>
+                    </div>        
+                </div>
+            </div>
+
+         <div class="col derecha">
+            <h3>Experiencia Laboral</h3>
+            <div class="item der">
+                <h4>Tecnico Vial</h4>
+                <spam class="casa">Vialidad Provincial</spam>
+                <span class="fecha">2013 - 2019</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nostrum quibusdam incidunt tempore esse et eligendi provident nemo reiciendis, assumenda porro suscipit inventore sint, tempora maiores, quidem quia. Earum, facilis!</p>
+                <div class="coectord">
+                    <div class="circulod"></div>
+                </div>        
+            </div>
+            
+            <div class="item der">
+                <h4>Pasante programador</h4>
+                <spam class="casa">company woody</spam>
+                <span class="fecha">2002 - 2008</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores repellat incidunt officiis at dignissimos reprehenderit hic amet! Culpa velit beatae accusamus recusandae inventore autem iure sapiente! Similique illum consectetur tempora.</p>
+                <div class="coectord">
+                    <div class="circulod"></div>
+                </div>        
+            </div>
+            <div class="item der">
+                <h4>clarkista</h4>
+                <spam class="casa">Distribuidora</spam>
+                <span class="fecha">2019 - 2020</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quo excepturi mollitia saepe, reprehenderit delectus eius blanditiis! Ipsa autem quidem amet neque, harum quaerat officiis optio esse modi. Aliquid, nulla?</p>
+                <div class="coectord">
+                    <div class="circulod"></div>
+                </div>        
+            </div>                                 
+        </div>
+    </div>
+</div>
+ </section>
+
+  <!-- SECCIÒN CONTACTO -->
+  <section id="contacto" class="contacto">
+    <div class="contenido-secciòn">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <!-- Formulario -->
+            <div class="col">
+                 <input type="text" placeholder="Nombre">
+                 <input type="text" placeholder="Teléfono">
+                 <input type="text" placeholder="Correo electronico" <input type="text" placeholder="Titulo">
+                 <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                 <button>
+                    Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                 </button>
+            </div>
+            <!-- Mapa -->
+            <div class="col">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Av. Libertador 420, Argentina
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            Llamanos: (+54)011-2230405
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: correodev@mail.com
+                        </li>        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- footer -->
+ <footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+ </footer>
+
+    <script src="java/js.js"></script>
+ <script src="https://kit.fontawesome.com/d2529096a9.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+<!--
+    
+    <!-- GENERAL--
+    <div class="general">
+
+        <!-- CUADRO IZQUIERDO--
+        <div class="izquierdo">
+            <h3>Informacion personal:</h3>
+            <ul class="texto_izquierdo">          
+                <p><b>Fecha de nacimiento:</b><br>  01/12/1999</p>
+                <p><b>Lugar de nacimiento:</b><br>  Bahia Blanca, Buenos Aires</p>
+                <p><b>Residencia actual:</b><br>    Barrio Oeste 5000</p>
+                <p><b>Estado civil:</b><br>         Soltero</p>
+                <p><b>D.N.I:</b><br>                01.234.567</p>
+                
+            </ul>
+            <h3>Contacto:</h3>
+            <ul class="texto_izquierdo">
+                <p><b>Correo Electronico:</b><br>   argentina2023@gmail.com</p>
+                <p><b>Contacto:</b><br>   (+54) 2805 010203</p>
+            </ul>
+
+            <h3>Idiomas:</h3>
+            <ul class="texto_izquierdo">
+                <li>Español</li>
+                <li>Portugues </li>
+                <li>Inglés</li>
+                <li>Italiano</li>
+            </ul>
+
+            <h3>Hobbies:</h3>
+            <ul class="texto_izquierdo">
+                <li>Programar</li>
+                <li>Estudiar</li>
+                <li>Gimnasio</li>
+            </ul>
+
+            <h3>Habilidades:</h3>
+            <ul class="texto_izquierdo">
+                <li>Manejo de paquete Office</li>
+                <li>Manejo de programa AutoCAD</li>
+                <li>Diseño industrial</li>
+            </ul>
+        </div>
+
+
+        <!-- CUADRO DERECHO --
+        <div class="derecho">
+            <div class="titulo">
+                <h1>Curriculum Vitae</h1>
+            </div>
+            <img src="/images/FotoCV.jpg">
+            <div class="nombre">
+                <h2> Diego Capusotto</h2>
+            </div>
+            <div class="experiencia">
+                <h3>Experiencias:</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, numquam et. Minus maxime ducimus deleniti fuga est ipsum ea sit sunt illum, temporibus architecto illo, minima maiores explicabo autem iure?</p>
+            </div>
+            <div class="Educacion">
+                <h3>Educación:</h3>
+                <table>
+                    <tr>
+                        <th> Estudios alcanzados</th>
+                        <th></th>
+                        <th>Año</th>
+                        <th></th>
+                        <th>Puntaje</th>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>Secundaria</td>
+                        <td></td>
+                        <td>2010</td>
+                        <td></td>
+                        <td>9.74</td>
+                    </tr>
+                    <tr>
+                        <td>Terciario</td>
+                        <td></td>
+                        <td>2018</td>
+                        <td></td>
+                        <td>7.8</td>
+                    </tr>
+                    <tr>
+                        <td>Universitario</td>
+                        <td></td>
+                        <td>2023</td>
+                        <td></td>
+                        <td>9.8</td>
+                    </tr>
+                </table>
+            </div>
+            <a href="https://developer.mozilla.org/es/docs/Glossary/Grid_Column" download="CVTICMAS">
+                <button class="boton_Descarga">
+                    <i class="fa-solid fa-download"></i>
+                    Descargar CV
+                </button>
+            </a>
+            <br>
+            <div class="tema_fondo">
+                <p>Tema:
+                <select class="cambio_fondo" id="coloreleccion" onchange="cambiarfondo()">
+                    <option value="#EDEDED">Claro</option>
+                    <option value="black">Oscuro</option>
+                </select>
+                </p>            
+            </div>
+        </div> <!-- CUADRO DERECHO--
+
+    </div> <!-- GENERAL--
+
+
+    <script src="https://kit.fontawesome.com/d2529096a9.js" crossorigin="anonymous"></script>
+    
+-->
